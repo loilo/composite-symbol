@@ -1,6 +1,6 @@
 {
   "name": "composite-symbol",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Map a series of values to a unique JavaScript Symbol",
   "keywords": [
     "composite",
