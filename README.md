@@ -53,5 +53,6 @@ npm install --save composite-symbol
 ```
 
 ## Gotchas
-* Order matters! `getCompositeSymbol(1, 2, 3)` will not return thesame symbol as `getCompositeSymbol(3, 2, 1)`.
+* Order matters! `getCompositeSymbol(1, 2, 3)` will not return the same symbol as `getCompositeSymbol(3, 2, 1)`.
+* Symbols are not unique across realms. That means, `getCompositeSymbol(1, 2, 3)` in browser window A will not return the same symbol as `getCompositeSymbol(1, 2, 3)` in browser window B.
 * Symbols, as well as Maps (which this package uses in the background) are ES2015 features. This is not a problem in Node.js anymore, but if you want to use this package in the browser, be aware that it will not work in Internet Explorer.
