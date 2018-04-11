@@ -1,5 +1,5 @@
 # Composite Symbol
-> Get a unique JavaScript Symbol from a series of values.
+> Get a unique JavaScript Symbol from a series of values, inspired by Bradley Farias' [Richer Keys](https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk) proposal.
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Travis](https://img.shields.io/travis/Loilo/composite-symbol.svg?label=unix&logo=travis)](https://travis-ci.org/Loilo/composite-symbol)
@@ -14,7 +14,7 @@ However, sometimes we need to map data to not just one object but to multiple va
 ## A Solution
 This package provides a `getCompositeSymbol` function which takes an arbitrary (non-zero) number of values and returns a unique [Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol). Whenever the same series of values is passed to `getCompositeSymbol`, the same Symbol is going to be returned.
 
-These Symbols allows us to construct things around them, e.g. we could use those unique symbols as keys in dictionaries.
+These unique Symbols allow us to construct things around them, e.g. we could use them as keys in dictionaries.
 
 ### Example
 We can use this feature to attach metadata to a relationship between two objects, without having to tack it onto the participating objects themselves:
