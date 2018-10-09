@@ -31,6 +31,9 @@
     "jest": "^22.4.3",
     "standard": "^11.0.1"
   },
+  "jest": {
+    "testURL": "http://localhost"
+  },
   "standard": {
     "env": [
       "jest"
