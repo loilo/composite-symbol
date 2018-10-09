@@ -100,6 +100,9 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# Package Lockfile
+package-lock.json
+
 # dotenv environment variables file
 .env
 
