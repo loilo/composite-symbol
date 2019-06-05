@@ -9,9 +9,9 @@
     "richer",
     "symbol"
   ],
-  "homepage": "https://github.com/Loilo/composite-key#readme",
+  "homepage": "https://github.com/Loilo/composite-symbol#readme",
   "bugs": {
-    "url": "https://github.com/Loilo/composite-key/issues"
+    "url": "https://github.com/Loilo/composite-symbol/issues"
   },
   "license": "MIT",
   "author": "Florian Reuschel <florian@loilo.de>",
@@ -22,7 +22,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Loilo/composite-key.git"
+    "url": "git+https://github.com/Loilo/composite-symbol.git"
   },
   "scripts": {
     "test": "standard && jest"
