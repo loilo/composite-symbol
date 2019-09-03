@@ -1,12 +1,15 @@
 function createMapContainer () {
   return {
+    index: Symbol('Composite Key'),
     primitive: new Map(),
     object: new WeakMap()
   }
 }
 
 function getCompositeSymbolRecursive (keys, mapContainer) {
-  if (!keys.length) throw new Error('No keys were provided')
+  if (keys.length === 0) {
+    return mapContainer.index
+  }
 
   const key = keys[0]
 
@@ -25,15 +28,7 @@ function getCompositeSymbolRecursive (keys, mapContainer) {
     map.set(key, subMapContainer)
   }
 
-  if (keys.length === 1) {
-    if (!('index' in subMapContainer)) {
-      subMapContainer.index = Symbol('Composite Key')
-    }
-
-    return subMapContainer.index
-  } else {
-    return getCompositeSymbolRecursive(keys.slice(1), subMapContainer)
-  }
+  return getCompositeSymbolRecursive(keys.slice(1), subMapContainer)
 }
 
 const rootMapContainer = createMapContainer()

@@ -2,6 +2,7 @@ const c = require('.')
 const obj = {}
 
 test('returns a symbol', () => {
+  expect(typeof c()).toBe('symbol')
   expect(typeof c('a')).toBe('symbol')
   expect(typeof c(obj)).toBe('symbol')
   expect(typeof c(null)).toBe('symbol')
