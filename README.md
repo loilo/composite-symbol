@@ -1,10 +1,10 @@
 # Composite Symbol
 > Get a unique JavaScript Symbol from a series of values, inspired by Bradley Farias' [Richer Keys](https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk) proposal.
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Travis](https://img.shields.io/travis/Loilo/composite-symbol.svg?label=unix&logo=travis)](https://travis-ci.org/Loilo/composite-symbol)
-[![AppVeyor](https://img.shields.io/appveyor/ci/Loilo/composite-symbol.svg?label=windows&logo=appveyor)](https://ci.appveyor.com/project/Loilo/composite-symbol)
-[![npm](https://img.shields.io/npm/v/composite-symbol.svg)](https://npmjs.com/package/composite-symbol)
+[![JavaScript Style Guide](https://badgen.net/badge/code%20style/standard/green)](https://standardjs.com)
+[![Travis](https://badgen.net/travis/loilo/composite-symbol?label=Linux&icon=travis)](https://travis-ci.org/Loilo/composite-symbol)
+[![AppVeyor](https://badgen.net/appveyor/ci/loilo/composite-symbol?label=Windows&icon=appveyor)](https://ci.appveyor.com/project/Loilo/composite-symbol)
+[![npm](https://badgen.net/npm/v/color-blend)](https://npmjs.com/package/composite-symbol)
 
 ## The Problem
 Since ES2015, we can use arbitrary objects as dictionay keys by using [Maps](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map).
