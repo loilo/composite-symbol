@@ -1,3 +1,12 @@
+<div align="center">
+  <br>
+  <br>
+
+![composite-symbol logo, showing the Unicode character "Composition Symbol": the overlapping outlines of a square and a circle](https://cdn.jsdelivr.net/gh/Loilo/composite-symbol@master/composition-symbol.svg)
+
+  <br>
+</div>
+
 # Composite Symbol
 > Get a unique JavaScript Symbol from a series of values, inspired by Bradley Farias' [Richer Keys](https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk) proposal.
 
