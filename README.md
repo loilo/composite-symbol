@@ -13,7 +13,7 @@
 [![JavaScript Style Guide](https://badgen.net/badge/code%20style/standard/green)](https://standardjs.com)
 [![Travis](https://badgen.net/travis/loilo/composite-symbol?label=Linux&icon=travis)](https://travis-ci.org/Loilo/composite-symbol)
 [![AppVeyor](https://badgen.net/appveyor/ci/loilo/composite-symbol?label=Windows&icon=appveyor)](https://ci.appveyor.com/project/Loilo/composite-symbol)
-[![npm](https://badgen.net/npm/v/color-blend)](https://npmjs.com/package/composite-symbol)
+[![npm](https://badgen.net/npm/v/composite-symbol)](https://npmjs.com/package/composite-symbol)
 
 ## The Problem
 Since ES2015, we can use arbitrary objects as dictionay keys by using [Maps](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map).
