@@ -17,6 +17,7 @@
   "author": "Florian Reuschel <florian@loilo.de>",
   "files": [
     "index.js",
+    "index.d.ts",
     "README.md"
   ],
   "main": "index.js",
