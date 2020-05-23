@@ -29,7 +29,7 @@
     "test": "standard && jest"
   },
   "devDependencies": {
-    "jest": "^24.8.0",
+    "jest": "^26.0.1",
     "standard": "^14.3.4"
   },
   "standard": {
