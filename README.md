@@ -11,8 +11,7 @@
 > Get a unique JavaScript Symbol from a series of values, inspired by Bradley Farias' [Richer Keys](https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk) proposal.
 
 [![JavaScript Style Guide](https://badgen.net/badge/code%20style/standard/green)](https://standardjs.com)
-[![Travis](https://badgen.net/travis/loilo/composite-symbol?label=Linux&icon=travis)](https://travis-ci.org/Loilo/composite-symbol)
-[![AppVeyor](https://badgen.net/appveyor/ci/loilo/composite-symbol?label=Windows&icon=appveyor)](https://ci.appveyor.com/project/Loilo/composite-symbol)
+[![Tests](https://badgen.net/github/checks/loilo/composite-symbol/master)](https://github.com/loilo/composite-symbol/actions)
 [![npm](https://badgen.net/npm/v/composite-symbol)](https://npmjs.com/package/composite-symbol)
 
 ## The Problem
